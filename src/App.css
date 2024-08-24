@@ -1,0 +1,49 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu, .Quiz, .EndScreen, .Login { 
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu button, .Quiz button, .EndScreen button, .Login button { 
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.Menu, .Quiz, .Login { 
+  color: white;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Login input { 
+  width: 80%; 
+  height: 40px; 
+  margin: 10px 0;
+  padding: 10px; 
+  border-radius: 5px; 
+  border: 1px solid #ccc;
+  font-size: 18px; 
+}
